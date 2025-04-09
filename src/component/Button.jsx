@@ -1,25 +1,9 @@
-// function Button({ children }) {
-//     const variant = {
-//         primary:
-//             "p-2 px-3 border border-primary shadow-sm hover:shadow text-white bg-[#27578c]",
-//         outline:
-//             "p-2 px-3 border border-white shadow-sm hover:shadow text-black bg-white",
-//     };
-//     console.log("variant", variant);
-//     return (
-//         <>
-//             <button>{children}</button>
-//         </>
-//     );
-// }
-// export default Button;
-
 import React from "react";
 
 const variants = {
     primary:
-        "py-1 px-3 hover:shadow-lg hover:shadow-black/20 text-white bg-[#27578c]",
-    white: "py-1 px-3 border border-gray-300 hover:shadow-lg hover:shadow-black/15 text-black bg-white",
+        "py-1 px-3 hover:shadow-lg hover:shadow-black/20 text-white bg-primary-bg",
+    white: "py-1 px-3 border border-border-primary hover:shadow-lg hover:shadow-black/15 text-black bg-white",
 };
 
 const Button = ({
@@ -31,9 +15,7 @@ const Button = ({
     data_tip,
     className,
     variant,
-    ...rest
 }) => {
-    console.log("rest", rest);
     return (
         <>
             <button

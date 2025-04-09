@@ -1,0 +1,84 @@
+{
+    "Assessment": [
+        {
+            "levels": [
+                {
+                    "title": "ENTERPRISE LEADERSHIP",
+                    "desc": "Measures performance on leadership skills with impact at both the company and team levels."
+                },
+                {
+                    "title": "TEAM LEADERSHIP",
+                    "desc": "Focuses on team-oriented leadership skills and collaboration."
+                }
+            ]
+        },
+        {
+            "skills": [
+                [
+                    {
+                        "id": 1,
+                        "title": "Business/Financial Acumen",
+                        "desc": "Comprehends the underlying drivers..."
+                    },
+                    {
+                        "id": 2,
+                        "title": "Knowledge of Management",
+                        "desc": "Lorem ipsum dolor sit amet..."
+                    },
+                    {
+                        "id": 3,
+                        "title": "Planning (Strategic and Tactical)",
+                        "desc": "Nam mauris magna, tempor vel nisl..."
+                    },
+                    {
+                        "id": 4,
+                        "title": "Strategic Thinking/Decision Making",
+                        "desc": "Mauris at elit a est lacinia laoreet..."
+                    },
+                    {
+                        "id": 5,
+                        "title": "Change Management & Innovation",
+                        "desc": "Nullam ac dui aliquam neque dictum gravida..."
+                    },
+                    {
+                        "id": 6,
+                        "title": "Accomplishment of Objectives",
+                        "desc": "Class aptent taciti sociosqu..."
+                    }
+                ],
+                [
+                    {
+                        "id": 7,
+                        "title": "Team Collaboration",
+                        "desc": "Encourages teamwork and supports peers."
+                    },
+                    {
+                        "id": 8,
+                        "title": "Conflict Resolution",
+                        "desc": "Effectively handles team conflicts."
+                    },
+                    {
+                        "id": 9,
+                        "title": "Empowering Others",
+                        "desc": "Gives team members autonomy."
+                    },
+                    {
+                        "id": 10,
+                        "title": "Coaching & Feedback",
+                        "desc": "Regularly provides constructive feedback."
+                    },
+                    {
+                        "id": 11,
+                        "title": "Team Communication",
+                        "desc": "Keeps team informed and aligned."
+                    },
+                    {
+                        "id": 12,
+                        "title": "Diversity & Inclusion",
+                        "desc": "Promotes a respectful team environment."
+                    }
+                ]
+            ]
+        }
+    ]
+}

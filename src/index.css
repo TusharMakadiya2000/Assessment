@@ -3,3 +3,8 @@
 body {
     background-color: #f2f9ff;
 }
+
+@theme {
+    --color-border-primary: #99a1af;
+    --color-primary-bg: #27578c;
+}
