@@ -1,7 +1,7 @@
-import Header from "../component/Header";
-import Button from "../component/Button";
+import Header from "../component/comman/Header";
+import Button from "../component/comman/Button";
 import Icon from "../component/utils/Icon";
-import EnterPrise from "../component/EnterPrise";
+import EnterPrise from "../component/Leadership";
 import { useRef, useState } from "react";
 const steps = [
     "Enterprise Leadership",

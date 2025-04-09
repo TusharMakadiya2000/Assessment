@@ -1,6 +1,6 @@
-import Button from "../component/Button";
+import Button from "./comman/Button";
 import { useRef } from "react";
-import SkillRatingForm from "../component/SkillRatingForm";
+import SkillRatingForm from "./SkillRatingForm";
 import data from "../../db.json";
 
 function EnterPrisePage({ currentStep, onNext, onBack }) {

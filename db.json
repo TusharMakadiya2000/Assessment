@@ -18,64 +18,64 @@
                     {
                         "id": 1,
                         "title": "Business/Financial Acumen",
-                        "desc": "Comprehends the underlying drivers..."
+                        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque porttitor magna, sed sollicitudin elit suscipit non. Phasellus consectetur tempus sem vel volutpat. Donec vehicula, massa ut faucibus porttitor, nibh libero vulputate sem, vitae porttitor est ex ac tortor. Sed vestibulum quam nec placerat pellentesque."
                     },
                     {
                         "id": 2,
                         "title": "Knowledge of Management",
-                        "desc": "Lorem ipsum dolor sit amet..."
+                        "desc": "Integer hendrerit congue eros, ac sodales nisi vehicula a. Suspendisse potenti. Proin erat nulla, hendrerit at maximus mattis, ultrices auctor purus. Sed rhoncus leo turpis, volutpat vestibulum velit vehicula non. Fusce sollicitudin magna eros, id interdum neque pulvinar in."
                     },
                     {
                         "id": 3,
                         "title": "Planning (Strategic and Tactical)",
-                        "desc": "Nam mauris magna, tempor vel nisl..."
+                        "desc": "Vivamus iaculis turpis non justo convallis, sit amet porttitor enim malesuada. Cras ut interdum urna, in ultrices lorem. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
                     },
                     {
                         "id": 4,
                         "title": "Strategic Thinking/Decision Making",
-                        "desc": "Mauris at elit a est lacinia laoreet..."
+                        "desc": "Nullam vel mollis lectus, ac egestas magna. Curabitur tincidunt turpis nunc, id dignissim sem molestie nec. Etiam commodo congue nibh sed facilisis."
                     },
                     {
                         "id": 5,
                         "title": "Change Management & Innovation",
-                        "desc": "Nullam ac dui aliquam neque dictum gravida..."
+                        "desc": "Phasellus sit amet massa dui. Nullam vitae scelerisque ipsum, nec varius sem. Duis mollis dignissim nibh non pellentesque. Duis maximus pretium sem vitae auctor."
                     },
                     {
                         "id": 6,
                         "title": "Accomplishment of Objectives",
-                        "desc": "Class aptent taciti sociosqu..."
+                        "desc": "Quisque id nisi turpis. Praesent augue leo, ullamcorper id massa pellentesque, faucibus scelerisque orci. Cras vitae iaculis lectus, in varius ligula. Integer tincidunt felis magna, vel egestas justo blandit non."
                     }
                 ],
                 [
                     {
                         "id": 7,
-                        "title": "Team Collaboration",
-                        "desc": "Encourages teamwork and supports peers."
+                        "title": "Collaboration and Organizatipnal Perspective",
+                        "desc": "Fusce ut est egestas nunc laoreet commodo. Sed rutrum elit vel ex elementum, sit amet laoreet ligula lobortis. Fusce porttitor fermentum ligula, nec tempor purus finibus vel. Ut eu tellus auctor magna consequat ornare viverra nec lorem. Maecenas fringilla faucibus ante, eget placerat justo euismod at."
                     },
                     {
                         "id": 8,
-                        "title": "Conflict Resolution",
-                        "desc": "Effectively handles team conflicts."
+                        "title": "Delegation",
+                        "desc": "Duis sit amet pharetra mi, sed interdum sapien. Nullam feugiat erat tortor, sed imperdiet est finibus id. Vivamus et porta orci. Maecenas lectus purus, tincidunt vel purus id, facilisis lobortis tortor."
                     },
                     {
                         "id": 9,
-                        "title": "Empowering Others",
-                        "desc": "Gives team members autonomy."
+                        "title": "Talent/Succession Development",
+                        "desc": "Praesent commodo suscipit ex, quis euismod lectus maximus non. Sed convallis id purus vel fermentum. Etiam eget metus nec arcu pellentesque gravida at vitae nibh. Phasellus consectetur facilisis sem. Pellentesque magna enim, cursus id porttitor sit amet, consequat ac sem."
                     },
                     {
                         "id": 10,
-                        "title": "Coaching & Feedback",
-                        "desc": "Regularly provides constructive feedback."
+                        "title": "Understanding Human Behavior",
+                        "desc": "Fusce turpis diam, vehicula ac hendrerit sed, volutpat id ligula. Vivamus eleifend massa arcu, non ullamcorper tellus pellentesque in. Nunc nibh ipsum, blandit vitae euismod at, hendrerit eleifend nisl."
                     },
                     {
                         "id": 11,
-                        "title": "Team Communication",
-                        "desc": "Keeps team informed and aligned."
+                        "title": "Motivation of Others - Catalytic Impact",
+                        "desc": "Nullam non nisi non tortor tristique venenatis. Ut lacinia sollicitudin purus a hendrerit. Nunc enim sem, faucibus a nulla in, sollicitudin tempus tellus."
                     },
                     {
                         "id": 12,
-                        "title": "Diversity & Inclusion",
-                        "desc": "Promotes a respectful team environment."
+                        "title": "Team Relationships & Stability",
+                        "desc": "Suspendisse rhoncus erat purus, quis dictum est hendrerit eu. Quisque id placerat mauris, posuere gravida tellus. Donec suscipit lorem ligula, vel tristique leo euismod eget."
                     }
                 ]
             ]

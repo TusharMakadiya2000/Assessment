@@ -100,14 +100,36 @@ const SkillRatingForm = forwardRef(({ skills: skillItems }, ref) => {
                     </div>
 
                     <div className="grid md:grid-cols-5 gap-x-5 gap-y-2 w-full items-start">
-                        <div className="col-span-3">
+                        <div className="col-span-3 flex items-center gap-3">
                             <span className="text-lg">Ratings</span>
+                            {errors[i].rating && (
+                                <div className="flex gap-1 items-center">
+                                    <Icon
+                                        icon="information-circle"
+                                        className="h-5 w-5 text-red-500"
+                                    />
+                                    <p className="text-sm text-red-500">
+                                        Rating is required
+                                    </p>
+                                </div>
+                            )}
                         </div>
 
-                        <div className="col-span-2">
+                        <div className="col-span-2 flex items-center gap-3">
                             <span className="text-lg">
                                 Development Trajectory
                             </span>
+                            {errors[i].trajectory && (
+                                <div className="flex gap-1 items-center">
+                                    <Icon
+                                        icon="information-circle"
+                                        className="h-5 w-5 text-red-500"
+                                    />
+                                    <p className="text-sm text-red-500">
+                                        Trajectory is required
+                                    </p>
+                                </div>
+                            )}
                         </div>
                         <div className="col-span-3 flex justify-start items-center gap-5">
                             <div className="flex flex-col items-start">
@@ -163,11 +185,6 @@ const SkillRatingForm = forwardRef(({ skills: skillItems }, ref) => {
                                     );
                                 })}
                             </div>
-                            {errors[i].rating && (
-                                <p className="text-sm text-red-500 mt-1">
-                                    Rating is required
-                                </p>
-                            )}
                         </div>
                         <div className="col-span-2">
                             <div className="flex gap-14">
@@ -225,11 +242,6 @@ const SkillRatingForm = forwardRef(({ skills: skillItems }, ref) => {
                                     }
                                 )}
                             </div>
-                            {errors[i].trajectory && (
-                                <p className="text-sm text-red-500 mt-1">
-                                    Trajectory is required
-                                </p>
-                            )}
                         </div>
 
                         <div className="col-span-5">
@@ -248,7 +260,7 @@ const SkillRatingForm = forwardRef(({ skills: skillItems }, ref) => {
                                 }
                             />
                             {errors[i].comments && (
-                                <p className="text-sm text-red-500 mt-1">
+                                <p className="text-sm text-red-500">
                                     Comments are required
                                 </p>
                             )}
@@ -268,7 +280,7 @@ const SkillRatingForm = forwardRef(({ skills: skillItems }, ref) => {
                                 }
                             />
                             {errors[i].recommendations && (
-                                <p className="text-sm text-red-500 mt-1">
+                                <p className="text-sm text-red-500">
                                     Recommendations are required
                                 </p>
                             )}
