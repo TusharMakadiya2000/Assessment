@@ -1,7 +1,7 @@
 import Header from "../component/comman/Header";
 import Button from "../component/comman/Button";
 import Icon from "../component/utils/Icon";
-import EnterPrise from "../component/Leadership";
+import Leadership from "../component/Leadership";
 import { useRef, useState } from "react";
 const steps = [
     "Enterprise Leadership",
@@ -15,9 +15,8 @@ function Home() {
     const handleNext = () => {
         setCurrentStep((prev) => Math.min(prev + 1, steps.length - 1));
     };
-    const handleBack = () => setCurrentStep((prev) => Math.max(prev - 1, 0)); // Prevent going < 0
+    const handleBack = () => setCurrentStep((prev) => Math.max(prev - 1, 0));
 
-    console.log("currentStep", currentStep);
     const scroll = () => {
         if (scrollRef.current) {
             scrollRef.current.scrollBy({
@@ -209,7 +208,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <EnterPrise
+            <Leadership
                 currentStep={currentStep}
                 onNext={handleNext}
                 onBack={handleBack}
