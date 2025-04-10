@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from "react";
-
 import Icon from "../component/utils/Icon";
 
 const SkillRatingForm = ({
@@ -12,7 +11,6 @@ const SkillRatingForm = ({
     const scrollRef = useRef();
 
     useEffect(() => {
-        // Scroll to top on step change
         if (scrollRef.current) {
             scrollRef.current.scrollTop = 0;
         }
@@ -56,7 +54,10 @@ const SkillRatingForm = ({
     };
 
     return (
-        <div ref={scrollRef} className="space-y-8 overflow-auto h-72 mb-12">
+        <div
+            ref={scrollRef}
+            className="space-y-8 overflow-auto h-[calc(100vh-395px)] mb-12"
+        >
             {skillItems.map((skill, i) => (
                 <div
                     key={i}

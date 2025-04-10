@@ -146,7 +146,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="flex flex-col gap-4">
-                    <div className="flex justify-between">
+                    <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-between">
                         <span className="text-2xl text-black">
                             Test Rater Rating Lauren D.
                         </span>
