@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 
 import Icon from "../component/utils/Icon";
 
@@ -9,6 +9,15 @@ const SkillRatingForm = ({
     reset,
     errors,
 }) => {
+    const scrollRef = useRef();
+
+    useEffect(() => {
+        // Scroll to top on step change
+        if (scrollRef.current) {
+            scrollRef.current.scrollTop = 0;
+        }
+    }, [skillItems]);
+
     useEffect(() => {
         const defaultValues = skillItems.map(() => ({
             rating: null,
@@ -47,7 +56,7 @@ const SkillRatingForm = ({
     };
 
     return (
-        <div className="space-y-8 overflow-auto h-72 mb-12">
+        <div ref={scrollRef} className="space-y-8 overflow-auto h-72 mb-12">
             {skillItems.map((skill, i) => (
                 <div
                     key={i}
@@ -94,7 +103,7 @@ const SkillRatingForm = ({
                                     onClick={() => toggleNA(i)}
                                     className={`border border-border-primary cursor-pointer rounded px-3 py-2 ${
                                         getValues(`skills.${i}.na`)
-                                            ? "bg-red-400 text-white"
+                                            ? "bg-red-400 scale-110 duration-300 text-white"
                                             : ""
                                     } ${
                                         !getValues(`skills.${i}.na`)
@@ -129,7 +138,7 @@ const SkillRatingForm = ({
                                                 }
                                                 className={`rounded border cursor-pointer border-border-primary h-10 w-10 ${
                                                     isSelected
-                                                        ? "bg-primary-bg text-white"
+                                                        ? "bg-primary-bg text-white scale-110 duration-300"
                                                         : ""
                                                 } ${
                                                     !isSelected
@@ -206,7 +215,7 @@ const SkillRatingForm = ({
                                                     }
                                                     className={`w-10 h-10 cursor-pointer border border-border-primary rounded  ${
                                                         isSelected
-                                                            ? selectedColor
+                                                            ? `${selectedColor} scale-110 duration-300`
                                                             : ""
                                                     } 
                         ${!isSelected ? hoverColor : ""}`}

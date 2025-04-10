@@ -172,10 +172,12 @@ function Home() {
                                 >
                                     {index !== steps.length && (
                                         <div
-                                            className={`flex-1 h-2 rounded ${
-                                                index <= currentStep
-                                                    ? "bg-black"
-                                                    : "bg-gray-300"
+                                            className={`flex-1 h-2 rounded transition-all duration-1000 ease-in-out  ${
+                                                index < currentStep
+                                                    ? "bg-black w-full"
+                                                    : index === currentStep
+                                                    ? "bg-black w-1/2"
+                                                    : "bg-gray-300 w-0"
                                             }`}
                                         />
                                     )}
